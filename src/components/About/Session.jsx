@@ -1,0 +1,24 @@
+import './Session.css'
+import session from '../../assets/horse.jpeg'
+import icon from '../../assets/youtube.webp'
+
+const Sessions = () => {
+  return (
+    <div className='session'>
+      <div className="session-left">
+        <img src={session} alt="" className='session-img'/>
+        <img src={icon} alt="" className='play-icon'/>
+      </div>
+      <div className="session-right">
+        <h3>About the Sessions</h3>
+        <h2>Changing Lives. Nurturing Talents.</h2>
+        <p>we are taught to nurture our talents both from industry experts and from our friends within KamiLimu examples of the ICT tracks and public speaking </p>
+        <p>mainly students do apply write essays, pass through interviews it is a long process and it is not easy btw once you get in everything will be flowing swiftly</p>
+        <p>they decided to do mainly what other universities arent able to provid to their students e.g the version and command line interface</p>
+      </div>
+      
+    </div>
+  );
+}
+
+export default Sessions;

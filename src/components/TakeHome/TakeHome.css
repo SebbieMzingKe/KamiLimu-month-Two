@@ -1,0 +1,24 @@
+.TakeHome{
+    margin: 80px auto;
+    text-align: center;
+    width: 90%;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+
+.gallery img{
+    width: 25%;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.btn.dark-btn{
+    background: #212121;
+    color: #fff;
+}

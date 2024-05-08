@@ -1,0 +1,46 @@
+.session{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+
+}
+
+.session-left{
+    flex-basis: 40%;
+}
+
+.session-right{
+    flex-basis: 56%;
+}
+
+.session-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.play-icon{
+    width: 60px;
+    position: absolute;
+    top: 100;
+    left: 100;
+    transform: translate(-375%, 375%);
+}
+
+.session h3{
+    font-weight: 600;
+    font-size: 16px;
+    color: #171111;
+}
+.session h2{
+    font-weight: 600;
+    font-size: 35px;
+    color: #2151d4;
+    margin: 10px 0;
+    max-width: 400px;
+}
+
+.session p{
+    margin-bottom: 15px;
+    color: #676767;
+}
