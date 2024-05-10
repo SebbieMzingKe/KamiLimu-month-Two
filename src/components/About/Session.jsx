@@ -1,13 +1,13 @@
 import './Session.css'
 import session from '../../assets/horse.jpeg'
-import icon from '../../assets/youtube.webp'
+import playicon from '../../assets/play.png'
 
 const Sessions = () => {
   return (
     <div className='session'>
       <div className="session-left">
         <img src={session} alt="" className='session-img'/>
-        <img src={icon} alt="" className='play-icon'/>
+        <img src={playicon} alt="" className='play-icon'/>
       </div>
       <div className="session-right">
         <h3>About the Sessions</h3>

@@ -50,3 +50,15 @@
     opacity: 1;
     padding-top: 0;
 }
+
+
+/* media query */
+@media (max-width: 1160px){
+    .BigPicture{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .picture{
+        flex-basis: 20px;
+    }
+}

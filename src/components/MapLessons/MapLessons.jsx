@@ -1,7 +1,7 @@
 import './MapLessons.css';
 
-import next from '../../assets/ig.webp'
-import back from '../../assets/ig.webp'
+import next from '../../assets/arrowfd.png'
+import back from '../../assets/arrowbk.png'
 import usr1 from '../../assets/duck.jpeg'
 import usr2 from '../../assets/flo.webp'
 import usr3 from '../../assets/ld.webp'
