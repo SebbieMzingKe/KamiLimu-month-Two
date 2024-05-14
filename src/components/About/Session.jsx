@@ -2,12 +2,12 @@ import './Session.css'
 import session from '../../assets/horse.jpeg'
 import playicon from '../../assets/play.png'
 
-const Sessions = () => {
+const Sessions = ({setPlayState}) => {
   return (
     <div className='session'>
       <div className="session-left">
         <img src={session} alt="" className='session-img'/>
-        <img src={playicon} alt="" className='play-icon'/>
+        <img src={playicon} alt="" className='play-icon' onClick={()=> {setPlayState(true)}}/>
       </div>
       <div className="session-right">
         <h3>About the Sessions</h3>

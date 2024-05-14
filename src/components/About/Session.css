@@ -24,6 +24,7 @@
     position: absolute;
     top: 100;
     left: 100;
+    cursor: pointer;
     transform: translate(-375%, 375%);
 }
 
