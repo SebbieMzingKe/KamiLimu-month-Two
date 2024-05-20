@@ -1,0 +1,11 @@
+.steve{
+    padding-left: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+.steve h3, li{
+    padding-bottom: 10px;
+    align-items: center;
+
+}

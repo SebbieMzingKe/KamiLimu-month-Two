@@ -49,6 +49,8 @@
 .picture:hover .caption{
     opacity: 1;
     padding-top: 0;
+    color: rgb(244, 5, 105);
+    font-weight: 200;
 }
 
 

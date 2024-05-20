@@ -1,6 +1,7 @@
 import './VidePlayer.css'
 import bus from '../../assets/bus simulator indonesia.mp4'
 import { useRef } from 'react';
+import PropTypes from 'prop-types';
 
 const VidePlayer = ({playState, setPlayState}) => {
 
@@ -18,5 +19,11 @@ const VidePlayer = ({playState, setPlayState}) => {
     </div>
   );
 }
+
+VidePlayer.propTypes = {
+  playState: PropTypes.bool.isRequired,
+  setPlayState: PropTypes.func.isRequired,
+};
+
 
 export default VidePlayer;

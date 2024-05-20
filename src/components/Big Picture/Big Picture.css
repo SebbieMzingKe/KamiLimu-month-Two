@@ -1,9 +1,11 @@
 .session{
     margin: 100px auto;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    gap: 20px;
 
 }
 
@@ -16,16 +18,16 @@
 }
 
 .session-img{
-    width: 100%;
+    width: 20%;
     border-radius: 10px;
 }
 .play-icon{
-    width: 60px;
+    width: 10px;
     position: absolute;
     top: 100;
     left: 100;
     cursor: pointer;
-    transform: translate(-375%, 375%);
+    transform: translate(-675%, 675%);
 }
 
 .session h3{
