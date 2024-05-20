@@ -11,6 +11,13 @@ const TakeHome = () => {
         <div className="gallery">
           <div>
           <img src={g1} alt="" />
+          <h3>How To Learn</h3>
+          <p>Working with Procrastination - using the promodomo technique</p>
+            <p>
+            </p>
+            </div>
+          <div>
+          <img src={g1} alt="" />
           <h3>Academic Excellence & Scolarship writing</h3>
           <p>Scaffolding as a learning habit - its good to seek support
             so that you can engage in one's unassisted efforts</p>
