@@ -6,10 +6,10 @@ import PropTypes from 'prop-types';
 const BigPicture = ({setPlayState}) => {
   return (
     <div className='session'>
-      <div className="session-left">
+      {/* <div className="session-left">
         <img src={session} alt="" className='session-img'/>
         <img src={playicon} alt="" className='play-icon' onClick={()=> {setPlayState(true)}}/>
-      </div>
+      </div> */}
       <div className="session-right">
         <h3>Here is what I learnt</h3>
         <h2>Being at KamiLimu</h2>

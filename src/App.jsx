@@ -30,8 +30,8 @@ const App = () => {
       <MapLessons/>
       <Title subTitle = 'From Steve Jobs' title = 'This Is What I Learnt'/>
       <JeffBezos/>
-      <Title subTitle = 'Contact Me' title = 'Get In Touch'/>
-      <Contact/>
+      {/* <Title subTitle = 'Contact Me' title = 'Get In Touch'/>
+      <Contact/> */}
       <Footer/>
       </div>
       <VidePlayer playState = {playState} setPlayState = {setPlayState}/>
