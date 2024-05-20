@@ -8,10 +8,10 @@
 }
 
 .picture img{
-    width: 300px;
+    width: 180px;
     border-radius: 10px;
     display: block;
-    height: 300px;
+    height: 200px;
 }
 
 .picture{
@@ -58,7 +58,7 @@
 @media (max-width: 1160px){
     .BigPicture{
         flex-direction: column;
-        gap: 10px;
+        gap: 15px;
     }
     .picture{
         flex-basis: 20px;

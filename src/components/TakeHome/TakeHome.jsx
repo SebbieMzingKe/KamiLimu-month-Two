@@ -10,7 +10,7 @@ const TakeHome = () => {
     <div className='TakeHome'>
         <div className="gallery">
           <div>
-          {/* <img src={g1} alt="" /> */}
+          <img src={g1} alt="" />
           <h3>Academic Excellence & Scolarship writing</h3>
           <p>Scaffolding as a learning habit - its good to seek support
             so that you can engage in one's unassisted efforts</p>
@@ -19,6 +19,7 @@ const TakeHome = () => {
             </p>
           </div>
           <div>
+          <img src={g2} alt="" />
             <h3>Soul in the game and Podcast for KamiLimu</h3>
             <p>Different factors have to come to play for one to chose where 
               they have to go
@@ -31,11 +32,13 @@ const TakeHome = () => {
              </p>
           </div>
           <div>
+          <img src={g3} alt="" />
             <h3>Responsible Computing</h3>
 
             <p>While innovating responsibly we should be aware of who we are sffecting</p>
           </div>
           <div>
+          <img src={g4} alt="" /> 
             <h3>
               Public Speaking
             </h3>
@@ -47,10 +50,6 @@ const TakeHome = () => {
               Always arrive unknown and leave unforgettable
             </p>
           </div>
-            {/* <img src={g1} alt="" />
-            <img src={g2} alt="" />
-            <img src={g3} alt="" />
-            <img src={g4} alt="" /> */}
         </div>
 
         <button className='btn dark-btn'>See more take aways here <img src={arrow} alt="" /></button>

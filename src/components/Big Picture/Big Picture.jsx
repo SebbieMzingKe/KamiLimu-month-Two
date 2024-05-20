@@ -11,11 +11,12 @@ const BigPicture = ({setPlayState}) => {
         <img src={playicon} alt="" className='play-icon' onClick={()=> {setPlayState(true)}}/>
       </div>
       <div className="session-right">
-        <h3>About the BigPicture</h3>
-        <h2>Changing Lives. Nurturing Talents.</h2>
-        <p>we are taught to nurture our talents both from industry experts and from our friends within KamiLimu examples of the ICT tracks and public speaking </p>
-        <p>mainly students do apply write essays, pass through interviews it is a long process and it is not easy btw once you get in everything will be flowing swiftly</p>
-        <p>they decided to do mainly what other universities arent able to provid to their students e.g the version and command line interface</p>
+        <h3>Here is what I learnt</h3>
+        <h2>Being at KamiLimu</h2>
+        <p>I learnt the aspect of introducing play before or after every session</p>
+        <p>that we should become an all-rounded individual not nly in tech but also communication and community engagement</p>
+        <h2>Across all Sessions</h2>
+        <p>The importance of responsible innovation/development and the use of technology responsibly</p>
       </div>
       
     </div>
