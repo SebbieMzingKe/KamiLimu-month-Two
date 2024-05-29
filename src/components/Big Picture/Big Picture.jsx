@@ -14,7 +14,7 @@ const BigPicture = ({setPlayState}) => {
         <h3>Here is what I learnt</h3>
         <h2>Being at KamiLimu</h2>
         <p>I learnt the aspect of introducing play before or after every session</p>
-        <p>that we should become an all-rounded individual not nly in tech but also communication and community engagement</p>
+        <p>That we should become an all-rounded individual not nly in tech but also communication and community engagement</p>
         <h2>Across all Sessions</h2>
         <p>The importance of responsible innovation/development and the use of technology responsibly</p>
       </div>

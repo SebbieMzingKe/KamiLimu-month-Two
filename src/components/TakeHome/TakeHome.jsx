@@ -16,6 +16,8 @@ const TakeHome = () => {
             <p>
             </p>
             </div>
+        </div>
+            <div className="gallery">
           <div>
           <img src={g1} alt="" />
           <h3>Academic Excellence & Scolarship writing</h3>
@@ -25,6 +27,8 @@ const TakeHome = () => {
               and enhances their experence
             </p>
           </div>
+          </div>
+          <div className="gallery">
           <div>
           <img src={g2} alt="" />
             <h3>Soul in the game and Podcast for KamiLimu</h3>
@@ -38,12 +42,18 @@ const TakeHome = () => {
              bringing one to one tutor experience. 
              </p>
           </div>
+          </div>
+
+          <div className="gallery">
           <div>
           <img src={g3} alt="" />
             <h3>Responsible Computing</h3>
 
             <p>While innovating responsibly we should be aware of who we are sffecting</p>
           </div>
+          </div>
+
+          <div className="gallery">
           <div>
           <img src={g4} alt="" /> 
             <h3>
@@ -57,11 +67,12 @@ const TakeHome = () => {
               Always arrive unknown and leave unforgettable
             </p>
           </div>
-        </div>
+          </div>
 
-        <button className='btn dark-btn'>See more take aways here <img src={arrow} alt="" /></button>
+        {/* <button className='btn dark-btn'>See more take aways here <img src={arrow} alt="" /></button> */}
       
     </div>
+    
   );
 }
 

@@ -1,14 +1,20 @@
 .TakeHome{
     margin: 80px auto;
     text-align: center;
+    justify-content: center;
     width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .gallery{
     display: flex;
-    
-    /* align-items: center; */
-    justify-content: center;
+    /* grid-template-columns: repeat(3, 1fr); */
+    flex-direction: column;
+    padding: 50px;
+    /* border: 0.5px solid gray; */
+    /* align-items: center;
+    justify-content: center; */
     margin-bottom: 40px;
     gap: 20px;
 }
