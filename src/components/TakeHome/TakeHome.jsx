@@ -21,10 +21,8 @@ const TakeHome = () => {
           <div>
           <img src={g1} alt="" />
           <h3>Academic Excellence & Scolarship writing</h3>
-          <p>Scaffolding as a learning habit - its good to seek support
-            so that you can engage in one's unassisted efforts</p>
-            <p>Feedback matters for good education as it makes one more likeable
-              and enhances their experence
+          <p>Scaffolding as a learning habit </p>
+            <p>Feedback matters for good education 
             </p>
           </div>
           </div>
@@ -32,14 +30,11 @@ const TakeHome = () => {
           <div>
           <img src={g2} alt="" />
             <h3>Soul in the game and Podcast for KamiLimu</h3>
-            <p>Different factors have to come to play for one to chose where 
-              they have to go
+            <p>Considering different factors to choose a path
             </p>
-            <p>Innovation has to scare you and if it doesn't its not an innovation</p>
+            <p>Innovation has to scare you </p>
             <p>
-            The way to catch the attention of your users is by making 
-            the end product easy, fun, accessible, cheaper, more convenient and
-             bringing one to one tutor experience. 
+            Make your products easy, fun and accessible 
              </p>
           </div>
           </div>
@@ -49,7 +44,7 @@ const TakeHome = () => {
           <img src={g3} alt="" />
             <h3>Responsible Computing</h3>
 
-            <p>While innovating responsibly we should be aware of who we are sffecting</p>
+            <p>While innovating mind impact</p>
           </div>
           </div>
 
@@ -60,11 +55,10 @@ const TakeHome = () => {
               Public Speaking
             </h3>
             <p>
-              For one to connect with the audience they should apply the elements of speech which are 
-              ethos for credibility, pathos for emotion and logos for logic.
+              Connect with the audience using pathos, logos and ethos
             </p>
             <p>
-              Always arrive unknown and leave unforgettable
+              Arrive unknown, leave unforgettable
             </p>
           </div>
           </div>

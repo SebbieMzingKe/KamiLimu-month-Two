@@ -20,12 +20,7 @@ const SteveJobs = () => {
           by Apple. So be curious and passionate throughout your life.
         </li>
         <li>
-        Stay hungry, stay foolish that we should never stop learning and
-         we should always try new things. We should be courageous and 
-         never be afraid to go the extra mile. We must have a want, we can
-          always build something better. We should not waste time living
-           someone else’s life. We should always trust our guts and intuition.
-           They are somehow right.
+        Stay hungry, stay foolish.
         </li>
       </ol>
     </div>
